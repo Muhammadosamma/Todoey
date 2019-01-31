@@ -57,14 +57,46 @@
 			isa = PBXGroup;
 			children = (
 				4529B66E21D422F000082CE8 /* AppDelegate.swift */,
-				4529B67021D422F000082CE8 /* TodoListViewController.swift */,
-				4529B67221D422F000082CE8 /* Main.storyboard */,
-				4529B67521D422F000082CE8 /* Assets.xcassets */,
-				4529B67721D422F000082CE8 /* LaunchScreen.storyboard */,
+				452D62AD22033CD80096BFFB /* controllers */,
+				452D62AE22033CF80096BFFB /* views */,
+				452D62AF22033D0F0096BFFB /* models */,
+				452D62B022033D340096BFFB /* supporting files */,
 				4529B67A21D422F000082CE8 /* Info.plist */,
-				452822222201E7F500A2325E /* Item.swift */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		452D62AD22033CD80096BFFB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4529B67021D422F000082CE8 /* TodoListViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		452D62AE22033CF80096BFFB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4529B67221D422F000082CE8 /* Main.storyboard */,
+				4529B67721D422F000082CE8 /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		452D62AF22033D0F0096BFFB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				452822222201E7F500A2325E /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		452D62B022033D340096BFFB /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4529B67521D422F000082CE8 /* Assets.xcassets */,
+			);
+			path = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
